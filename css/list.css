@@ -1,0 +1,116 @@
+/* 列表页专有的css */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+/* nav模块制作 */
+.nav {
+    overflow: hidden;
+}
+.nav .sk_list {
+    float: left;
+}
+.nav ul li {
+    float: left;
+}
+.nav .sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.nav .sk_con {
+    float: left;
+}
+.nav .sk_con ul li {
+    float: left;
+}
+.nav .sk_con ul li a {
+    display: block;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.nav .sk_con ul li:last-child a::after {
+    content: "\e90b";
+    font-family: 'icomoon';
+}
+
+/* 列表页主体部分 */
+.sk_container {
+    margin-bottom: 20px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+.sk_bd ul li .des {
+    margin-left: 8px;
+}
+.sk_bd ul li .pic {
+    width: 290px;
+    height: 295px;
+}
+.sk_bd ul li img {
+    width: 288px;
+    height: 100%;
+}
+.sk_bd ul li .des p {
+    margin-top: 6px;
+}
+.pri {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.sk_bd ul li .or {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.sk_bd ul li .af {
+    text-decoration: line-through;
+}
+.number {
+    margin-bottom: 11px;
+}
+.number .middle {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 10px;
+    border: 1px solid #c81523;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.number .middle i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 8px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+}
+.sk_bd ul li button {
+    width: 290px;
+    height: 52px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
